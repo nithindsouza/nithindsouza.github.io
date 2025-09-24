@@ -192,7 +192,6 @@ main section:nth-child(even) {
     background-color: var(--secondary-color);
 }
 
-
 #about { text-align: center; max-width: 800px; margin: 0 auto; }
 
 /* Projects Section */
@@ -395,7 +394,6 @@ footer .social-links a {
 footer .social-links a:hover {
     color: var(--primary-color);
 }
-
 /* Responsive */
 @media (max-width: 768px) {
     .nav-menu { display: none; } /* Simplifies nav on mobile */
