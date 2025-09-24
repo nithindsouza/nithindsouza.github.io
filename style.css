@@ -190,7 +190,8 @@ main section:nth-child(even) {
 }
 
 /* Experience & Education Section */
-.job, .education-entry {
+/* Experience & Education Section */
+.job {
     background: var(--white);
     padding: 25px;
     border-radius: 8px;
@@ -199,10 +200,23 @@ main section:nth-child(even) {
     border-left: 5px solid var(--primary-color);
 }
 
+#education .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.education-entry {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    border-top: 5px solid var(--primary-color);
+}
+
 .job:last-child, .education-entry:last-child {
     margin-bottom: 0;
 }
-
 
 .job .company, .education-entry .institution {
     color: var(--text-light);
